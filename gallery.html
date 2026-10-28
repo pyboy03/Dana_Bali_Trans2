@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery | Bali Tour Guide</title>
+    <meta name="description"
+        content="Private, personal tours across Bali — temples, rice terraces, beaches and hidden corners, guided by someone who knows the island.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="page-gallery">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header is-solid" id="siteHeader">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Bali Tour Guide</a>
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav"
+                aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html" class="active" aria-current="page">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Gallery</h1>
+                <p>Real places, real guests, real days on the road.</p>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="filters" role="group" aria-label="Filter photos by category">
+                <button class="filter-btn active" data-filter="All" type="button">All</button>
+                <button class="filter-btn" data-filter="Nature" type="button">Nature</button>
+                <button class="filter-btn" data-filter="Temple" type="button">Temple</button>
+                <button class="filter-btn" data-filter="Beach" type="button">Beach</button>
+                <button class="filter-btn" data-filter="Guest Moments" type="button">Guest Moments</button>
+            </div>
+
+            <!-- TAMBAH FOTO: salin satu blok <li> di bawah, ganti file, kategori, judul, caption, dan alt. -->
+            <ul class="gallery" id="gallery">
+                <li class="g-item" data-category="Nature">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g01.jpg"
+                        data-title="Bali Activity" aria-label="Open photo: Bali Activity">
+                        <img src="assets/images/gallery/g01.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Bali Activity</strong>All</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Temple">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g02.jpg"
+                        data-title="West Bali Tour" aria-label="Open photo: West Bali Tour">
+                        <img src="assets/images/gallery/g02.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>West Bali Tour</strong>Temple</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Beach">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g03.jpg"
+                        data-title="Lovina Dolphin Tour " aria-label="Open photo: Lovina Dolphin Tour">
+                        <img src="assets/images/gallery/g03.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Jungle trail</strong>Beach</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Nature">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g04.jpg"
+                        data-title="Jatiluwih Tour" aria-label="Open photo: Jatiluwih Tour">
+                        <img src="assets/images/gallery/g04.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Jatiluwih Tour</strong>Nature</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Nature">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g05.jpg" data-title="Ubub Tour"
+                        aria-label="Open photo: Ubub Tour">
+                        <img src="assets/images/gallery/g05.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Ubub Tour</strong>Nature</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Nature">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g06.jpg"
+                        data-title="Kintamani Tour" aria-label="Open photo: Kintamani Tour">
+                        <img src="assets/images/gallery/g06.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Kintamani Tour</strong>Nature</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Beach">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g07.jpg"
+                        data-title="South Bali Tour" aria-label="Open photo: South Bali Tour">
+                        <img src="assets/images/gallery/g07.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>South Bali Tour</strong>Beach</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Temple">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g08.jpg"
+                        data-title="Besakih Tour" aria-label="Open photo: Besakih Tour">
+                        <img src="assets/images/gallery/g08.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Besakih Tour</strong>Temple</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Beach">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g09.jpg"
+                        data-title="Nusa Penida Packages" aria-label="Open photo: Nusa Penida Packages">
+                        <img src="assets/images/gallery/g09.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Nusa Penida Packages</strong>Beach</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Beach">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g10.jpg"
+                        data-title="Nusa Penida Packages" aria-label="Open photo: Nusa Penida Packages">
+                        <img src="assets/images/gallery/g10.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Nusa Penida Packages</strong>Beach</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Nature">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g11.jpg"
+                        data-title="Bali Combine Tour" aria-label="Open photo: Bali Combine Tour">
+                        <img src="assets/images/gallery/g11.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Bali Combine Tour</strong>Nature</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Nature">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g12.jpg"
+                        data-title="Bali Activities" aria-label="Open photo: Bali Activities">
+                        <img src="assets/images/gallery/g12.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Bali Activities</strong>Nature</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Nature">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g14.jpg"
+                        data-title="Bali Fun Tour" aria-label="Open photo: Bali Fun Tour">
+                        <img src="assets/images/gallery/g14.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Bali Fun Tour</strong>Nature</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Nature">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g13.jpg"
+                        data-title="Bali Activities" aria-label="Open photo: Bali Activities">
+                        <img src="assets/images/gallery/g13.jpg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Bali Activities</strong>Nature</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Guest Moments">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g15.jpeg"
+                        data-title="Bali Activities" aria-label="Open photo: Bali Activities">
+                        <img src="assets/images/gallery/g15.jpeg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong>Guest Moments Activities</strong>Guest Moments</span>
+                    </button>
+                </li>
+                <li class="g-item" data-category="Guest Moments">
+                    <button type="button" class="g-btn" data-full="assets/images/gallery/g16.jpeg" data-title="Moments"
+                        aria-label="Open photo: Bali Activities">
+                        <img src="assets/images/gallery/g16.jpeg" width="800" height="1000" loading="lazy"
+                            alt="Forest hills and a jungle trail">
+                        <span class="g-cap"><strong> Guest Activities</strong>Guest Moments</span>
+                    </button>
+                </li>
+            </ul>
+        </section>
+
+        <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+            <button class="lb-close" id="lbClose" type="button" aria-label="Close">&times;</button>
+            <button class="lb-nav lb-prev" id="lbPrev" type="button" aria-label="Previous photo">&#8249;</button>
+            <figure>
+                <img id="lbImg" src="" alt="">
+                <figcaption><strong id="lbTitle"></strong><span id="lbCaption"></span><small id="lbCount"></small>
+                </figcaption>
+            </figure>
+            <button class="lb-nav lb-next" id="lbNext" type="button" aria-label="Next photo">&#8250;</button>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <p class="footer-brand">Bali Tour Guide</p>
+                <p>Private, personal tours across Bali — temples, rice terraces, beaches and hidden corners, guided by
+                    someone who knows the island.</p>
+            </div>
+            <div>
+                <p class="footer-title">Explore</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="footer-title">Get in touch</p>
+                <ul>
+                    <li><a href="https://wa.me/6281234567890?text=Hello%21%20I%20found%20your%20website%20and%20would%20like%20to%20ask%20about%20a%20Bali%20tour."
+                            target="_blank" rel="noopener">WhatsApp: +62 812-3456-7890</a></li>
+                    <li><a href="https://instagram.com/dana_bali_trans" target="_blank" rel="noopener">Instagram:
+                            @dana_bali_trans</a></li>
+                    <li><a href="https://web.facebook.com/search/top?q=i%20kadek%20dana" target="_blank"
+                            rel="noopener">Facebook:
+                            @Kadek Dana</a></li>
+                    <li><a href="mailto:sudanayasakadek@gmail.com">sudanayasakadek@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; <span id="year">2026</span> Bali Tour Guide. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
